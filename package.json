@@ -1,0 +1,27 @@
+{
+  "name": "asistente-investigacion",
+  "version": "1.0.0",
+  "description": "Asistente de investigación con Gemini API (frontend + backend seguro)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "gemini",
+    "investigacion",
+    "ai",
+    "express"
+  ],
+  "author": "Rodrigo Garcia",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
