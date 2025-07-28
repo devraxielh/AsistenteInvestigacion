@@ -1,7 +1,7 @@
 /********************************************
  * Asistente de Investigación con Gemini API
  ********************************************/
-const API_KEY = "AIzaSyD__HMqr9hdRhqo0v6-XMv3SHMmPguG5BA"; // <-- Reemplaza con tu API Key real
+const API_KEY = process.env.GEMINI_API_KEY; // <-- Reemplaza con tu API Key real
 
 // ======= FUNCIONES PRINCIPALES =======
 async function analizarEnfoque() {
